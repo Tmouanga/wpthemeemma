@@ -222,4 +222,96 @@ body {
 
 /**
 * RESPONSIVE MOD
-** ======================= */   
+** ======================= */
+
+@media only screen and (max-width: 768px) /***Tab device*/ {
+
+    /**
+* EDITER LE HEADER
+** ======================= */
+.heading-page {
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding-top: 40px ;
+    padding-bottom: 40px;
+    position: relative;
+ }
+
+ .logoclass {
+     text-align: center;
+ }
+
+ .heading-page ul {
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .topnav {
+    display: block;
+   }
+
+      #logo {
+         width: 120px;
+       }
+/**
+* EDITER LA SECTION 1
+** ======================= */
+.section1 {
+    background-color: #59598B;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.section1 p, h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/**
+* EDITER LA SECTION 2
+** ======================= */
+.section2 {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.groupeSection2 {
+    padding: 0px;
+    margin-right: 90px;
+    margin-left: 90px;
+    display: block;
+}
+
+.groupeintextsection2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+#dababypic {
+    min-width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section2 p, h2 {
+    color: white;
+}
+
+.section2 p {
+    font-size: 25px;
+}
+
+.section2 h2 {
+    font-size: 30px;
+}
+
+
+}
